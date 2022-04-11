@@ -7,7 +7,7 @@ dice.addEventListener('click',()=>{
         return Response.json();
     }))
     .then((data=>{
-        id.innerHTML = 'ADVICE #117'+data.slip.id;
+        id.innerHTML = 'ADVICE #'+data.slip.id;
         adv.innerHTML = data.slip.advice;
     }))
 })

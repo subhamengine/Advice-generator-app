@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+:root{
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --NeonGreen2: hsl(150, 92%, 48%);
+    ---GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+    --fontSize : 29px;
+}
+*::before,::after{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    place-items: center;
+    vertical-align: middle;
+    background-color: var(--DarkBlue);
+}
+
+.main-body{
+    width: 25vw;
+    max-width: 25vw;
+    min-height:28vh;
+    background-color: var(--DarkGrayishBlue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 250px;
+    border-radius: 7px;
+    position: relative;
+}
+.header{
+    color: var(--NeonGreen);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight:300;
+}
+.advice{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.pattern{
+    max-width: 18vw;
+    margin-bottom: 5px;
+}
+.dice{
+    border: none;
+    background-color: var(--NeonGreen);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.dice:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px var(--NeonGreen);
+}
+/* .dice:hover{
+    background-color: var(--NeonGreen2);
+} */
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+}
+

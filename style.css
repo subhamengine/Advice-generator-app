@@ -77,4 +77,9 @@ body{
     bottom: 10px;
     font-size: 10px;
 }
-
+@media(max-width:375px) {
+   .main-body{
+       min-width: 80%;
+       
+   }
+}
